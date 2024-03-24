@@ -28,6 +28,33 @@
   color: #61dafb;
 }
 
+.icons-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+  opacity: 1; /* Set initial opacity as 1 */
+  transition: opacity 0.3s ease;
+  display: flex;
+  gap: 20px;
+}
+
+.icons-container a {
+  transition: transform 0.2s ease;
+}
+
+.icons-container a:hover {
+  transform: scale(1.1);
+}
+.icons-container a img {
+  max-width: 100px; /* Adjust the max width as needed */
+  max-height: 100px; /* Adjust the max height as needed */
+}
+
+.icons-container.hidden {
+  opacity: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
