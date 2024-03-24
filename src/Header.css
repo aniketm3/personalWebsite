@@ -1,0 +1,41 @@
+header {
+    background-color: #3a3a39; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 20px; /* Add padding to the header */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    font-size: 20px;
+    background-color: #262b2e;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; 
+  }
+
+  .left {
+    margin-right: auto;
+  }
+
+  .right {
+    margin-left: 10px;
+  }
+
+  button:hover {
+    background-color: #c2c2c2;
+    transform: scale(1.07);
+  }
+  
+  h1 {
+    margin: 0; 
+  }
+  
+  p {
+    margin: 0;
+    font-style: italic;
+  }

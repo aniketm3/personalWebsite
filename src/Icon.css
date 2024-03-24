@@ -1,0 +1,25 @@
+/* Icons.css */
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .icons a {
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  .icons img {
+    
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+
+  .scrolled {
+    opacity: 0;
+  }
